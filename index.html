@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Head stores all the meta information(data about data) -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title of the page-->
     <title>Racing Car Game</title> 
+    <!-- Link for google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <!-- Link for style css where design part is done -->
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
     
-    
+    <!-- Audio tag stores audio files like mp3,mp4 etc -->
     <audio  id="music">
-        <source src="assets/newmusic.mp3" type="audio/mpeg">
+        <source src="assets/music.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-            
+    <!-- Script tag is used to add javascript functionality to html page -->
         <script>
+        //In below code,audio element is assigned to variable called myMusic
         var myMusic= document.getElementById("music");
+        //Creating a function with name play() which is used to start/continue playing the music.mp3 audio file stored in myMusic variable
         function play() {
         myMusic.play();
         }
-        
+        //Creating a function with name play() which is used to stop/pause playing the music.mp3
         function pause() {
         myMusic.pause();
         }
@@ -40,6 +46,7 @@
             </p>
             <div>Select Level <br>
                 <span class="level">
+                    <!-- onclick is the attribute for button tag which calls the respective function when clicked on it -->
                     <button id="easy" onclick="play()" >Easy</button>
                     <button id="moderate" onclick="play()" >Moderate</button>
                     <button id="difficult" onclick="play()" >Difficult</button>
@@ -48,6 +55,7 @@
         </div>
         <div class="gameArea"></div>
     </div>
+    <!--     below tag includes all the javascript functionality from script.js into this index.html file -->
     <script src="script.js"></script>
 </body>
 </html>
