@@ -8,6 +8,25 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    
+    
+    <audio  id="music">
+        <source src="assets/music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+            
+        <script>
+        var myMusic= document.getElementById("music");
+        function play() {
+        myMusic.play();
+        }
+        
+        function pause() {
+        myMusic.pause();
+        }
+        </script>
+    
+    
     <div class="carGame">
         <div class="score"></div>
         <div class="startScreen">
@@ -21,9 +40,9 @@
             </p>
             <div>Select Level
                 <span class="level">
-                    <button id="easy">Easy</button>
-                    <button id="moderate">Moderate</button>
-                    <button id="difficult">Difficult</button>
+                    <button id="easy" onclick="play()" >Easy</button>
+                    <button id="moderate" onclick="play()" >Moderate</button>
+                    <button id="difficult" onclick="play()" >Difficult</button>
                 </span>
             </div>
         </div>
