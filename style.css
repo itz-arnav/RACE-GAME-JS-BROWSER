@@ -38,7 +38,7 @@
             position: absolute;
             top: 15px;
             left: 40px;
-            background: #10ac84;
+            background: #110157;
             width: 300px;
             line-height: 70px;
             text-align: center;
@@ -70,6 +70,7 @@
         .level button {
             padding: 7px;
             font-size: 14px;
+            font-weight: bolder;
             background: white;
             border: 1px solid orangered;
             border-radius: 10px;
