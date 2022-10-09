@@ -27,7 +27,7 @@
         .gameArea{
             width: 400px;
             height: 100vh;
-            background: #2d3436;
+            background: #606c70;
             margin: auto;
             position: relative;
             overflow: hidden;
@@ -38,7 +38,7 @@
             position: absolute;
             top: 15px;
             left: 40px;
-            background: #2505b3;
+            background: #866fee;
             width: 300px;
             line-height: 70px;
             text-align: center;
@@ -48,14 +48,14 @@
         }
         .startScreen{
             position: absolute;
-            background-color: #ee5253;
+            background-color: #f07f7f;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
             color: white;
             z-index: 1;
             text-align: center;
-            border: 1px solid #ff6b6b;
+            border: 1px solid #e97676;
             padding: 15px;
             margin: auto;
             width: 50%;
@@ -77,6 +77,6 @@
             width: 80px;
             cursor: pointer;
             outline: none;
-            box-shadow: 0 5px 5px #777777a6;
+            box-shadow: 0 5px 5px #f36f6fa6;
         }
         
