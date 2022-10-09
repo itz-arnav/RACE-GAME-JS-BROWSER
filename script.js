@@ -8,7 +8,7 @@ const level = document.querySelector('.level');
 let gameStart = new Audio();
 let gameOver = new Audio();
 
-gameStart.src = "assets/audio/game_theme.mp3";
+gameStart.src = "assets/audio/newmusic.mp3";
 gameOver.src = "assets/audio/gameOver_theme.mp3";
 
 
