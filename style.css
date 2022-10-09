@@ -10,7 +10,7 @@
         .car, .enemyCar{
             width: 50px;
             height: 70px;
-            background: red;
+            background: blue;
             position: absolute;
             bottom: 120px;
             background-image: url('assets/images/car.png');
@@ -21,7 +21,7 @@
             width: 10px;
             height: 100px;
             position: absolute;
-            background: white;
+            background: yellow;
             margin-left: 195px;   /* show line in center = (gameArea.width / 2) - (roadLines.width / 2) */
         }
         .gameArea{
