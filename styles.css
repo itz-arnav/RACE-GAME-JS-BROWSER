@@ -1,0 +1,279 @@
+
+html{
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.extra-div h2, #service-div h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+body{
+    background-color: #111111;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #ffc916; */
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+}
+
+.header:before{
+    content: "";
+    position: absolute;
+    background-color: #ffc916; 
+    /* opacity: 1; */
+    z-index: -1;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+.navbar:before{
+    content: "";
+    position: absolute;
+    background-color: #ffc916;
+    opacity: 1;
+    z-index: -1;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+.nav-item a{
+    color: #111111!important;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: #ffffff!important;
+}
+
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: #111111;
+    text-align: center;
+    position: relative;
+}
+
+.header-buttons{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+}
+
+.header-buttons i{
+    color: #111111;
+}
+
+.header-buttons .fa{
+    display: block;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    /* color: lightgray; */
+    /* border: 1px solid #111111; */
+    border-radius: 10%;
+    background-color: #ebb60b;
+    padding: 0.8rem;
+    box-shadow: 0.2rem 0.2rem #111111;
+}
+
+.header-buttons .fa:hover {
+    transform: translate(0.1rem, 0.1rem);
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.header-buttons a{
+    text-decoration: none;
+}
+
+.header-section .myName{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-shadow: 0.5rem 0.1rem 0.4rem #950740; */
+}
+
+.center-div{
+    width: 100%;
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.navbar .navbar-brand{
+    /* border: 1px solid #111111; */
+    border-style: none;
+    border-radius: 10px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #111111;
+    background-color: #ebb60b;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    box-shadow: 0.2rem 0.2rem #111111;
+}
+
+.navbar .navbar-brand:hover{
+    transform: translate(0.1rem, 0.1rem);
+    box-shadow: none;
+    cursor: pointer;
+    text-decoration: none;
+    /* box-shadow: 0.2rem 0.2rem #111111; */
+}
+
+.center-div p{
+    font-size: 1rem;
+    font-weight: 500;
+    /* padding: 5px 0 0px 0; */
+    color: #ffffff;
+}
+
+.center-div p span{
+    color: #111111;
+    font-weight: 900;
+}
+
+/* ************ extra div start ************** */
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.header-extradiv .project{
+    color: #ffc916;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.extra-div{
+    background-color: #ffffff;
+    border: medium none;
+    padding: 50px!important;
+    border-radius: 3%;
+    transition: 0.3s;
+}
+
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 #ffc916;
+    transform: translateY(-20px);
+}
+
+.mySkills{
+    margin-top: 100px;
+}
+
+.mySkills p{
+    font-family: cursive;
+}
+
+.mySkills .about{
+    color: #ffc916;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.education{
+    margin-top: 100px;
+}
+
+.education p{
+    font-family: cursive;
+}
+
+.education .edu{
+    color: #ffc916;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* ***************** offer section start ****************** */
+.service-offers{
+    background-color: #ffc916;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.headings{
+    margin-bottom: 50px;
+}
+
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.names h1{
+    color: #111111;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.service-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress{
+    height: 0.6rem!important;
+    margin-bottom: 25px!important;
+    background-color: #bdbdbd;
+}
+
+/* *********** footer section start ******************* */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ffc916;
+    color: #111111;
+    height: 50px;
+}
+/* *********** footer section end ******************* */
