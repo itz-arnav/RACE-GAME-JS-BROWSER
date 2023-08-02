@@ -10,10 +10,10 @@
         .car{
             width: 50px;
             height: 70px;
-            background: rgb(85, 158, 25);
+            background: rgb(20, 142, 223);
             position: absolute;
             bottom: 120px;
-            background-image: url('assets/images/car3.png');
+            background-image: url('assets/images/car1.png');
             background-repeat: no-repeat;
             background-size: 100% 100%;
         }
@@ -21,10 +21,10 @@
         .enemyCar{
             width: 50px;
             height: 70px;
-            background: rgb(85, 158, 25);
+            background: rgb(201, 230, 12);
             position: absolute;
             bottom: 120px;
-            background-image: url('assets/images/car2.jpg');
+            background-image: url('assets/images/car1.png');
             background-repeat: no-repeat;
             background-size: 100% 100%;
         }
